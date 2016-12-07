@@ -1410,7 +1410,8 @@ a.bg-danger:focus {
 .page-header {
   padding-bottom: 9px;
   margin: 40px 0 20px;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #000;
+  text-transform: uppercase;  /* page-header cap - kl */
 }
 ul,
 ol {
@@ -4486,7 +4487,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
   .navbar-right {
     float: right !important;
-    margin-right: -15px;
+    margin-right: 5%;     /* navbar-right shifted more left - kl */
   }
   .navbar-right ~ .navbar-right {
     margin-right: 0;
@@ -4960,7 +4961,7 @@ a.badge:focus {
   padding-bottom: 30px;
   margin-bottom: 30px;
   color: inherit;
-  background-color: #eee;
+  background-color: #e3f2f4;  /* jumbotron color - kl */
 }
 .jumbotron h1,
 .jumbotron .h1 {
