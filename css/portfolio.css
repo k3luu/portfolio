@@ -1,5 +1,7 @@
 body {
+	background-color: #e3f2f4;
 	font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+	word-spacing: 5px;
 }
 
 .header {
@@ -12,8 +14,13 @@ body {
 	text-transform: uppercase;
 }
 
+.menu-link a {
+	color: #fff;
+}
+
 .dark-container {
 	background-color: #000;
+	color: #fff;
 }
 
 .page-header-dark {
@@ -21,4 +28,8 @@ body {
   margin: 40px 0 20px;
   border-bottom: 1px solid #eee;
   text-transform: uppercase;
+}
+
+.bottom-container {
+	margin-bottom: -50px;
 }
