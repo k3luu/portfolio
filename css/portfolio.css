@@ -44,13 +44,15 @@ body {
 #carousel-hangout {
 	width: 30%;
 	height: 30%;
-	margin-left: 50%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #carousel-myo {
 	width: 50%;
 	height: 50%;
-	margin-left: 40%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .project-content {
