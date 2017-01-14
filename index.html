@@ -1,204 +1,53 @@
 <!DOCTYPE html>
 <html>
-  <head>
+  <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kathy Luu | Home</title>
+    
+    <link rel="icon" type="image/png" href="images/favicon.ico">
 
-  	<link href="css/bootstrap.css" rel="stylesheet">
-  	<link href="css/bootstrap-theme.css" rel="stylesheet">
-  	<link href="css/portfolio.css" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css">
 
-    <title>Kathy Luu</title>
+    <link rel="stylesheet" type="text/css" href="css/portfolio.css">
+
   </head>
   <body>
 
-    <!-- menu bar -->
-    <nav class="navbar-fixed-top">
+    
+    
+<!-- menu bar
+<header>
+    <div class="container clearfix">
+        <h1 id="mylogo">
+            LOGO
+        </h1>
+        <nav>
+            <a href="">Lorem</a>
+            <a href="">Ipsum</a>
+            <a href="">Dolor</a>
+        </nav>
+    </div>
+</header> -->
+  	
+  	<header class="text-center">
+      
+     <a href="#"><img src="images/kl-logo.png" id="mylogo" alt="mylogo"></a>
+     <h1>Kathy Luu</h1>
+     <nav class="navbar-fixed-top">
       <div id="navbar" class="navbar-collapse collapse menu-link">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-          </ul>
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#about">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="work-experience.html">Experience</a></li>
+            <li><a href="contact.html">Contact</a></li>
           </ul>
       </div>
     </nav>
+  	</header>
 
-  	
-  	<div class="jumbotron text-center header">
-		 <h1>Kathy Luu</h1>
-  	</div>
+    
 
-    <!-- PROJECTS SECTION -->
-    <section id="projects" class="jumbotron row">
-      <div class="container text-center col-lg-8 col-lg-offset-2">
-        <div class="page-header">
-          <h2>Past Projects</h2>
-        </div>
-      </div>
-
-      <!-- HANGOUT CONTENT -->
-      <div class="row container">
-        <div class="col-lg-6 project-content">
-          <!-- HANGOUTS CAROUSEL -->
-          <div id="carousel-hangout" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-              <li data-target="#carousel-hangout" data-slide-to="0" class="active"></li>
-              <li data-target="#carousel-hangout" data-slide-to="1"></li>
-              <li data-target="#carousel-hangout" data-slide-to="2"></li>
-            </ol>
-
-            <div class="carousel-inner" role="listbox">
-              <div class="item active">
-                <img src="images/hangouts1.jpg" alt="First slide">
-              </div>
-              <div class="item">
-                <img src="images/hangouts2.jpg" alt="Second slide">
-              </div>
-              <div class="item">
-                <img src="images/hangouts3.jpg" alt="Third slide">
-              </div> 
-            </div>
-
-            <a class="left carousel-control" href="#carousel-hangout" role="button" data-slide="prev">
-              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="right carousel-control" href="#carousel-hangout" role="button" data-slide="next">
-              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
-          </div> <!-- HANGOUTS CAROUSEL -->
-        </div>
-
-        <div class="col-lg-6 container"><br> 
-          <a href="http://hangouts-r-us2.herokuapp.com/" target="_blank"><h4>Hangouts R Us</h4></a>
-              <ul>
-                <li>Built a event-image organizer web application with a team focusing on <u>user-centered design</u>, using AJAX and JQuery with Heroku as a host platform.</li>
-                <li>Developed and led implementation of front end features, using JSON files as a temporary database.</li>
-                <li>Learned principles of visual design, perception and cognition to effectively organize and present information with our interfaces.</li>
-                <li>Performed and analyzed controlled experiments online using A/B testing, all to <u>maximize user experience</u>.</li>
-              </ul>
-        </div>
-      </div> <!-- END HANGOUT CONTENT -->
-      <br>
-      <!-- MYOFLEX CONTENT-->
-      <div class="row container">
-          <div class="col-lg-6 project-content">
-              <!-- MYOFLEX CAROUSEL -->
-              <div id="carousel-myo" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                  <li data-target="#carousel-myo" data-slide-to="0" class="active"></li>
-                  <li data-target="#carousel-myo" data-slide-to="1"></li>
-                  <li data-target="#carousel-myo" data-slide-to="2"></li>
-                </ol>
-
-                <div class="carousel-inner" role="listbox">
-                  <div class="item active">
-                    <img src="images/myoflex1.jpg" alt="First slide">
-                  </div>
-                  <div class="item">
-                    <img src="images/myoflex2.jpg" alt="Second slide">
-                  </div>
-                  <div class="item">
-                    <img src="images/myoflex3.jpg" alt="Third slide">
-                  </div> 
-                </div>
-
-                <a class="left carousel-control" href="#carousel-myo" role="button" data-slide="prev">
-                  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                  <span class="sr-only">Previous</span>
-                </a>
-                <a class="right carousel-control" href="#carousel-myo" role="button" data-slide="next">
-                  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                  <span class="sr-only">Next</span>
-                </a>
-              </div> <!-- MYOFLEX CAROUSEL -->
-          </div>
-
-          <div class="col-lg-6 container">
-              <a href="https://weibellab-teaching.github.io/cse118-218-fa15_Team01/" target="_blank"><h4>MyoFlex</h4></a>
-                <ul>
-                  <li>An integration of the <a href="https://www.myo.com/" target="_blank">Myo Gesture Control Armband</a> and <a href="https://theeyetribe.com/" target="_blank">Eye Tribe</a> eyetracker. We focus on an ability-based design to focus on <u>multimodal user input</u>, assisting users with motor diseases in their daily computer use.</li>
-                  <li>Utilized a third party Java API framework to map C++ Myo SDK to Java.</li>
-                  <li>Tweaked features of the Myo Armband to read specific hand poses and <u>implement our own gestures</u>.</li>
-                </ul>
-          </div> 
-      </div> <!-- END MYOFLEX CONTENT -->
-    </section> <!-- END PROJECTS SECTION -->
-
-    <section id="experience" class="jumbotron dark-container row">
-      <div class="container text-center col-lg-8 col-lg-offset-2">
-        <div class="page-header-dark">
-        	<h2>Work Experience</h2>
-        </div>
-        <p>Student Lead, UCSD Housing and Dining</p>
-        <p><i class="text-right">2012 - 2016</i></p>
-        <ul class="text-left">
-          <li>Totaled sales at the end of a workday for manager records.</li>
-          <li>Upheld proper procedures and policies, according to Housing, Dining, and Hospitality (HDH) at the University of California, San Diego.</li>
-          <li>Performed as a Student Lead, delegating tasks to student workers and acting as a proxy for the manager in cases where the manager is not available.</li>
-          <li>Used Adobe Photoshop to make planograms for all of The Village Market to organize products on shelves and help new employees familiarize themselves with the store.</li>
-        </ul>
-      </div>
-    </section>
-
-    <section class="jumbotron row">
-      <div class="container text-center col-lg-8 col-lg-offset-2">
-        <div class="page-header">
-    			<h2>Volunteer Work</h2>
-        </div>
-        <p>Global Brigades, <i>Honduras</i></p>
-        <ul class="text-left">
-          <li>Traveled to Honduras to help build a water system in the rural community of El Junquillo in order to provide drinkable water.</li>
-          <li>Became educated with the construction of water systems and the overall process and goal of Global Brigades to stabilize and sustain communities in developing countries.</li>
-          <li>Dug trenches with members of the community and laid down pipes for the water system.</li>
-          <li>Educated children of the community with basic sanitation practices.</li>
-        </ul> <br><br>
-        <!-- HONDURAS CAROUSEL -->
-        <div id="carousel-honduras" class="carousel slide" data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-target="#carousel-honduras" data-slide-to="0" class="active"><li>
-            <li data-target="#carousel-honduras" data-slide-to="1"></li>
-            <li data-target="#carousel-honduras" data-slide-to="2"></li>
-            <li data-target="#carousel-honduras" data-slide-to="3"></li>
-            <li data-target="#carousel-honduras" data-slide-to="4"></li>
-            <li data-target="#carousel-honduras" data-slide-to="5"></li>
-          </ol>
-
-          <div class="carousel-inner" role="listbox">
-            <div class="item active">
-              <img src="images/hon1.jpg" alt="First slide">
-            </div>
-            <div class="item">
-              <img src="images/hon2.jpg" alt="Second slide">
-            </div>
-            <div class="item">
-              <img src="images/hon3.jpg" alt="Third slide">
-            </div>
-            <div class="item">
-              <img src="images/hon4.jpg" alt="Fourth slide">
-            </div> 
-            <div class="item">
-              <img src="images/hon5.jpg" alt="Fifth slide">
-            </div> 
-            <div class="item">
-              <img src="images/hon6.jpg" alt="Sixth slide">
-            </div> 
-          </div>
-
-          <a class="left carousel-control" href="#carousel-honduras" role="button" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="right carousel-control" href="#carousel-honduras" role="button" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
-        </div> <!-- HONDURAS CAROUSEL -->
-      </div>
-    </section>
 
     <section id="about" class="jumbotron dark-container bottom-container row">
       <div class="container text-center col-lg-8 col-lg-offset-2">
@@ -214,12 +63,7 @@
 
         <h3>Hobbies</h3>
         <pp>Doodling, Netflix-ing old shows, <a href="https://luusfilm.tumblr.com" target="_blank">Photography</a>, Reading</pp>
-
-        <br>
         
-        <h3>Contact</h3>
-        <pp>kathyluu820@gmail.com</pp>
-        </div>
       </div>
     </section>
 
@@ -227,7 +71,9 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/portfolio.js"></script>
 
   </body>
 </html>

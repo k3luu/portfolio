@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    
+	    <title>Kathy Luu | Projects</title>
+	    <link rel="icon" type="image/png" href="images/favicon.ico">
+
+	    <!-- Bootstrap -->
+	    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	    <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css">
+
+	    <link rel="stylesheet" type="text/css" href="css/portfolio.css">
+	</head>
+	<body>
+
+	<header class="text-center">
+     <a href="index.html"><img src="images/kl-logo.png" id="mylogo" alt="mylogo"></a>
+     <h1>Kathy Luu</h1>
+     <nav class="navbar-fixed-top">
+      <div id="navbar" class="navbar-collapse collapse menu-link">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="work-experience.html">Experience</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+      </div>
+     </nav>
+  	</header>
+
+
+		<!-- PROJECTS SECTION -->
+    <section id="projects" class="jumbotron row">
+      <div class="container text-center col-lg-8 col-lg-offset-2">
+        <div class="page-header">
+          <h2>Past Projects</h2>
+        </div>
+      </div>
+
+      <!-- HANGOUT CONTENT -->
+      <div class="row container">
+        <div class="col-lg-6 project-content">
+          <!-- HANGOUTS CAROUSEL -->
+          <div id="carousel-hangout" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carousel-hangout" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel-hangout" data-slide-to="1"></li>
+              <li data-target="#carousel-hangout" data-slide-to="2"></li>
+            </ol>
+
+            <div class="carousel-inner" role="listbox">
+              <div class="item active">
+                <img src="images/hangouts1.jpg" alt="First slide">
+              </div>
+              <div class="item">
+                <img src="images/hangouts2.jpg" alt="Second slide">
+              </div>
+              <div class="item">
+                <img src="images/hangouts3.jpg" alt="Third slide">
+              </div> 
+            </div>
+
+            <a class="left carousel-control" href="#carousel-hangout" role="button" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-hangout" role="button" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div> <!-- HANGOUTS CAROUSEL -->
+        </div>
+
+        <div class="col-lg-6 container"><br> 
+          <a href="http://hangouts-r-us2.herokuapp.com/" target="_blank"><h4>Hangouts R Us</h4></a>
+              <ul>
+                <li>Built a event-image organizer web application with a team focusing on <u>user-centered design</u>, using AJAX and JQuery with Heroku as a host platform.</li>
+                <li>Developed and led implementation of front end features, using JSON files as a temporary database.</li>
+                <li>Learned principles of visual design, perception and cognition to effectively organize and present information with our interfaces.</li>
+                <li>Performed and analyzed controlled experiments online using A/B testing, all to <u>maximize user experience</u>.</li>
+              </ul>
+        </div>
+      </div> <!-- END HANGOUT CONTENT -->
+      <br>
+      <!-- MYOFLEX CONTENT-->
+      <div class="row container">
+          <div class="col-lg-6 project-content">
+              <!-- MYOFLEX CAROUSEL -->
+              <div id="carousel-myo" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carousel-myo" data-slide-to="0" class="active"></li>
+                  <li data-target="#carousel-myo" data-slide-to="1"></li>
+                  <li data-target="#carousel-myo" data-slide-to="2"></li>
+                </ol>
+
+                <div class="carousel-inner" role="listbox">
+                  <div class="item active">
+                    <img src="images/myoflex1.jpg" alt="First slide">
+                  </div>
+                  <div class="item">
+                    <img src="images/myoflex2.jpg" alt="Second slide">
+                  </div>
+                  <div class="item">
+                    <img src="images/myoflex3.jpg" alt="Third slide">
+                  </div> 
+                </div>
+
+                <a class="left carousel-control" href="#carousel-myo" role="button" data-slide="prev">
+                  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#carousel-myo" role="button" data-slide="next">
+                  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div> <!-- MYOFLEX CAROUSEL -->
+          </div>
+
+          <div class="col-lg-6 container">
+              <a href="https://weibellab-teaching.github.io/cse118-218-fa15_Team01/" target="_blank"><h4>MyoFlex</h4></a>
+                <ul>
+                  <li>An integration of the <a href="https://www.myo.com/" target="_blank">Myo Gesture Control Armband</a> and <a href="https://theeyetribe.com/" target="_blank">Eye Tribe</a> eyetracker. We focus on an ability-based design to focus on <u>multimodal user input</u>, assisting users with motor diseases in their daily computer use.</li>
+                  <li>Utilized a third party Java API framework to map C++ Myo SDK to Java.</li>
+                  <li>Tweaked features of the Myo Armband to read specific hand poses and <u>implement our own gestures</u>.</li>
+                </ul>
+          </div> 
+      </div> <!-- END MYOFLEX CONTENT -->
+    </section> <!-- END PROJECTS SECTION -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/portfolio.js"></script>
+
+	</body>
+</html>

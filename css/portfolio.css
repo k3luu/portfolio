@@ -1,13 +1,99 @@
 body {
-	background-color: #e3f2f4;
+	background-color: #fff;
+	/* #e3f2f4; */
 	font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif;
 	overflow-x: hidden;
 	word-spacing: 5px;
 }
 
-.header {
-	background-color: #c3d4d0;
+header {
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+
+	background-color: #fff;
+	/* #c3d4d0;*/
 	text-transform: uppercase;
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+    z-index: 999;
+    -webkit-transition: height 0.3s;
+    -moz-transition: height 0.3s;
+    -ms-transition: height 0.3s;
+    -o-transition: height 0.3s;
+    transition: height 0.3s;
+}
+header a#mylogo {
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+header nav {
+    display: inline-block;
+    float: right;
+}
+header nav a {
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+header nav a:hover {
+    color: white;
+}
+header.smaller {
+    height: 75px;
+}
+header.smaller #mylogo {
+	float: left;
+    height: 70px;
+    line-height: 70px;
+    padding-left: 10px;
+}
+header.smaller nav a {
+    line-height: 75px;
+}
+@media all and (max-width: 660px) {
+    header #mylogo {
+        display: block;
+        float: none;
+        margin: 0 auto;
+        height: 100px;
+        line-height: 100px;
+        text-align: center;
+    }
+    header nav {
+        display: block;
+        float: none;
+        height: 50px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    header nav a {
+        line-height: 50px;
+        margin: 0 10px;
+    }
+    header.smaller {
+        height: 75px;
+    }
+    header.smaller #mylogo {
+    	float: left;
+        height: 40px;
+        line-height: 40px;
+        font-size: 30px;
+    }
+    header.smaller nav {
+        height: 35px;
+    }
+    header.smaller nav a {
+        line-height: 35px;
+    }
 }
 
 .menu-link {
@@ -16,7 +102,7 @@ body {
 }
 
 .menu-link a {
-	color: #fff;
+	color: #000;
 }
 
 .dark-container {
