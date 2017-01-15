@@ -1,24 +1,18 @@
+/*	light blue #e3f2f4; 
+	teal #c3d4d0
+*/
 body {
 	background-color: #fff;
-	/* #e3f2f4; */
 	font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif;
 	overflow-x: hidden;
 	word-spacing: 5px;
 }
-
 header {
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-left: auto;
-    margin-right: auto;
-
 	background-color: #fff;
-	/* #c3d4d0;*/
 	text-transform: uppercase;
     width: 100%;
     overflow: hidden;
-    position: fixed;
+    position: relative;
     z-index: 999;
     -webkit-transition: height 0.3s;
     -moz-transition: height 0.3s;
@@ -26,99 +20,79 @@ header {
     -o-transition: height 0.3s;
     transition: height 0.3s;
 }
-header a#mylogo {
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    -ms-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    transition: all 0.3s;
-}
-header nav {
-    display: inline-block;
-    float: right;
-}
-header nav a {
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    -ms-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    transition: all 0.3s;
-}
-header nav a:hover {
-    color: white;
-}
 header.smaller {
-    height: 75px;
+	background-color: #fff;
+	position: relative;
+    height: 50px;
 }
-header.smaller #mylogo {
+header #mylogo {	/* logo on standard pages */
+	height: 300px;
+	padding-top: 10px;
+	position: fixed;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+header.smaller #mylogo {	/* mobile/minimal logo on standard pages */
 	float: left;
-    height: 70px;
-    line-height: 70px;
+    height: 75px;
+    line-height: 75px;
     padding-left: 10px;
 }
-header.smaller nav a {
-    line-height: 75px;
+/* HOMEPAGE
+#name-header {
+	margin-top: -20px;
 }
-@media all and (max-width: 660px) {
+#home-logo {	/* huge logo for homepage 
+	-webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.smaller #home-logo {
+	float: left;
+    height: 75px;
+    line-height: 75px;
+    padding-left: 10px;
+}
+.homepage {
+	padding-bottom: 100px;
+	background-color: #eee;
+	text-transform: uppercase;
+} */
+
+@media all and (max-width: 767px) {
     header #mylogo {
         display: block;
         float: none;
         margin: 0 auto;
-        height: 100px;
+        height: 120px;
         line-height: 100px;
         text-align: center;
     }
-    header nav {
-        display: block;
-        float: none;
-        height: 50px;
-        text-align: center;
-        margin: 0 auto;
-    }
-    header nav a {
-        line-height: 50px;
-        margin: 0 10px;
-    }
     header.smaller {
-        height: 75px;
+        height: 50px;
     }
     header.smaller #mylogo {
     	float: left;
-        height: 40px;
-        line-height: 40px;
+        height: 50px;
+        line-height: 50px;
         font-size: 30px;
     }
-    header.smaller nav {
-        height: 35px;
+    header > button {
+    	margin-top: 20px;
+    	margin-right: 20px;
     }
-    header.smaller nav a {
-        line-height: 35px;
-    }
+    .nav li > a{
+    	text-align: right;
+    	margin-left: 60%;
+	}
 }
-
-.menu-link {
-	font-weight: 700;
-	text-transform: uppercase;
-}
-
-.menu-link a {
-	color: #000;
-}
-
-.dark-container {
-	background-color: #000;
-	color: #fff;
-}
-
-.page-header-dark {
-  padding-bottom: 9px;
-  margin: 40px 0 20px;
-  border-bottom: 1px solid #eee;
-  text-transform: uppercase;
-}
-
-.bottom-container {
-	margin-bottom: -50px;
+footer {
+	margin: 50px;
 }
 
 .carousel-inner > .item > img,
@@ -145,6 +119,29 @@ header.smaller nav a {
 .project-content {
 	padding-top: 20px;
 	padding-bottom: 20px;
+}
+
+#profile-photo {
+	margin-top: 50px;
+	width: 40%;
+}
+
+/* PAGE CONTENT SPACING */
+.content {
+	margin-top: 10%;
+}
+.contact-content {
+	padding: 50px 100px;
+}
+
+/* NAV BAR */
+.menu-link {
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-right: 10%;
+}
+.menu-link a {
+	color: #000;
 }
 
 

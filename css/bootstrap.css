@@ -4487,7 +4487,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
   .navbar-right {
     float: right !important;
-    margin-right: 5%;     /* navbar-right shifted more left - kl */
+    margin-right: 1%;     /* navbar-right shifted more left - kl */
   }
   .navbar-right ~ .navbar-right {
     margin-right: 0;
@@ -4961,7 +4961,7 @@ a.badge:focus {
   padding-bottom: 30px;
   margin-bottom: 30px;
   color: inherit;
-  background-color: #e3f2f4;  /* jumbotron color - kl */
+  background-color: #fff;  /* jumbotron color - kl */
 }
 .jumbotron h1,
 .jumbotron .h1 {
