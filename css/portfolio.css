@@ -95,6 +95,16 @@ footer {
 	margin: 50px;
 }
 
+.phone-img {
+	height: 400px;
+	margin: 25px 0px;
+}
+
+.myo-img {
+	width: 500px;
+	margin: 25px 50px;
+}
+
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
      display: block;

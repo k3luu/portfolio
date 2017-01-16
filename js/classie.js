@@ -1,4 +1,6 @@
 /*!
+ * Author: David DeSandro  -- https://github.com/desandro/classie
+ *
  * classie - class helper functions
  * from bonzo https://github.com/ded/bonzo
  * 
