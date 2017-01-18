@@ -3,7 +3,7 @@
 */
 body {
 	background-color: #fff;
-	font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	overflow-x: hidden;
 	word-spacing: 5px;
 }
@@ -65,6 +65,10 @@ header.smaller #mylogo {	/* mobile/minimal logo on standard pages */
 } */
 
 @media all and (max-width: 767px) {
+	body {
+		overflow-x: hidden;
+	}
+	
     header #mylogo {
         display: block;
         float: none;
@@ -90,19 +94,10 @@ header.smaller #mylogo {	/* mobile/minimal logo on standard pages */
     	text-align: right;
     	margin-left: 60%;
 	}
+
 }
 footer {
 	margin: 50px;
-}
-
-.phone-img {
-	height: 400px;
-	margin: 25px 0px;
-}
-
-.myo-img {
-	width: 500px;
-	margin: 25px 50px;
 }
 
 .carousel-inner > .item > img,
@@ -112,36 +107,67 @@ footer {
      height: auto;
 }
 
-#carousel-hangout {
-	width: 40%;
-	height: 40%;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-#carousel-myo {
-	width: 70%;
-	height: 70%;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-.project-content {
-	padding-top: 20px;
-	padding-bottom: 20px;
-}
-
 #profile-photo {
 	margin-top: 50px;
 	width: 40%;
 }
 
 /* PAGE CONTENT SPACING */
+.page-title {
+    font-size: 84px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
 .content {
 	margin-top: 10%;
+	margin-bottom: 5%;
 }
 .contact-content {
 	padding: 50px 100px;
+}
+
+.project-content {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.project-title {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: 2px 2px #000;
+    left: 20%;
+    top: 20%;
+    z-index: 100;
+    position: absolute;
+    /*
+    background-color: #c3d4d0;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0px 0px;
+    width: 400px;
+    */
+}
+
+.thumbnail {
+    height: 400px; 
+    width: 400px; 
+    margin: 0 auto;
+    margin-bottom: 50px;
+    position: relative;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+}
+
+.phone-img {
+    height: 400px;
+    margin: 25px 0px;
+}
+
+.myo-img {
+    width: 500px;
+    margin: 25px 50px;
 }
 
 /* NAV BAR */
