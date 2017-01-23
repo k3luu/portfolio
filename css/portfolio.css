@@ -3,7 +3,7 @@
 */
 body {
 	background-color: #fff;
-font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	overflow-x: hidden;
 	word-spacing: 5px;
 }
@@ -76,6 +76,7 @@ header.smaller #mylogo {	/* mobile/minimal logo on standard pages */
         height: 120px;
         line-height: 100px;
         text-align: center;
+        z-index: 99;
     }
     header.smaller {
         height: 50px;
@@ -85,6 +86,7 @@ header.smaller #mylogo {	/* mobile/minimal logo on standard pages */
         height: 50px;
         line-height: 50px;
         font-size: 30px;
+        z-index: 99;
     }
     header > button {
     	margin-top: 20px;
@@ -150,8 +152,8 @@ footer {
 }
 
 .thumbnail {
-    height: 400px; 
-    width: 400px; 
+    height: 375px; 
+    width: 375px; 
     margin: 0 auto;
     margin-bottom: 50px;
     position: relative;
@@ -159,6 +161,7 @@ footer {
     background-repeat:   no-repeat;
     background-size:     cover;
 }
+
 
 .phone-img {
     height: 400px;
